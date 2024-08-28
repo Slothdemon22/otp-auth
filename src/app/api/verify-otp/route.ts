@@ -1,6 +1,7 @@
 import User from "../schemas/userSchema";
 import dbConnect from "@/utils/dbConnect";
 import { NextResponse } from "next/server";
+import mongoose from "mongoose";
 
 export async function POST(req: Request) {
     try {
