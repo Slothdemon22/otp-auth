@@ -169,7 +169,9 @@ export default function SignIn() {
 
         <div className="flex items-center justify-center p-2">
             <Link href="/sign-up">
-            <span className="text-blue-500 hover:underline cursor-pointer">Don't have an account? Sign Up.</span>
+            <span className="text-blue-500 hover:underline cursor-pointer">
+    Don&apos;t have an account? Sign Up.
+  </span>
             </Link>
 
         </div>

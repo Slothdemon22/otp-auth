@@ -149,8 +149,10 @@ const SignUp = () => {
             {message && <p className="text-sm mt-4">{message}</p>}
           </CardFooter>
           <div className="flex items-center justify-center p-2">
-          <Link href="/sign-in">
-            <span className="text-blue-500 hover:underline cursor-pointer">Already have an account? Sign In.</span>
+                <Link href="/sign-in">
+                <span className="text-blue-500 hover:underline cursor-pointer">
+          Already have an account? Sign In.
+        </span>
             </Link>
           </div>
         </form>
