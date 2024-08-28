@@ -73,7 +73,7 @@ export default function SignIn() {
     </div>
     <p style="color: #333; font-size: 16px; line-height: 1.6;">
       Please enter this OTP within the next 10 minutes to complete your registration. 
-      <a href="http://localhost:3000/sign-in/otp" style="color: #007BFF; text-decoration: none;">Click here to enter your OTP</a>.
+      <a href="https://otp-auth-1ghn.vercel.app/sign-in/otp" style="color: #007BFF; text-decoration: none;">Click here to enter your OTP</a>.
     </p>
     <p style="color: #999; font-size: 14px; line-height: 1.6; margin-top: 20px;">
       If you did not request this, please ignore this email or contact our support team.
