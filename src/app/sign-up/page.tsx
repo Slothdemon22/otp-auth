@@ -2,6 +2,7 @@
 import { Spinner } from "@/components/spinner";
 import React, { useState } from "react";
 import axios from "axios";
+import Link from "next/link";
 import {
   Card,
   CardContent,
@@ -147,6 +148,11 @@ const SignUp = () => {
             </Button>
             {message && <p className="text-sm mt-4">{message}</p>}
           </CardFooter>
+          <div className="flex items-center justify-center p-2">
+          <Link href="/sign-in">
+            <span className="text-blue-500 hover:underline cursor-pointer">Already have an account? Sign In.</span>
+            </Link>
+          </div>
         </form>
       </Card>
     </div>

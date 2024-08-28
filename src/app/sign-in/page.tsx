@@ -2,6 +2,7 @@
 import { Spinner } from "@/components/spinner";
 import React, { useState } from "react";
 import axios from "axios";
+import Link from "next/link";
 import {
   Card,
   CardContent,
@@ -165,6 +166,13 @@ export default function SignIn() {
             <p className="text-sm text-gray-600">Forgot Password?</p>
           </CardFooter>
         </form>
+
+        <div className="flex items-center justify-center p-2">
+            <Link href="/sign-up">
+            <span className="text-blue-500 hover:underline cursor-pointer">Don't have an account? Sign Up.</span>
+            </Link>
+
+        </div>
       </Card>
     </div>
   );
